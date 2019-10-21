@@ -1,0 +1,18 @@
+package com.bridgelabz.DependencyInjection.constuctor;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.bridgelabz.DependencyInjection.setter.Student;
+
+public class Exam {
+
+	public static void main(String[] args) 
+	{
+		 ApplicationContext context1=new ClassPathXmlApplicationContext("beans1.xml");
+		  Student stud=context1.getBean("student",Student.class);
+		  stud.displayStudentInfo();
+ 
+	}
+
+}

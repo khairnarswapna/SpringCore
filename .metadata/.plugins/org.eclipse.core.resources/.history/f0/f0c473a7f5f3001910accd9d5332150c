@@ -1,0 +1,10 @@
+package com.bridgelabz.DependencyInjection.constuctor;
+
+public class Exam {
+
+	public static void main(String[] args) 
+	{
+ 
+	}
+
+}

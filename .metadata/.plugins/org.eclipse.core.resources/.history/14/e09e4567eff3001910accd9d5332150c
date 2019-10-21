@@ -1,0 +1,37 @@
+package com.bridgelabz.DependencyInjection;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+ 
+
+public class Exam {
+
+	public static void main(String[] args) 
+	{
+	
+		//Student student=new Student();
+		//student.setStudentName("swati");
+		//student.displayStudentInfo();
+		
+		  ApplicationContext context1=new ClassPathXmlApplicationContext("beans1.xml");
+		 
+		  Student stud=context1.getBean("student",Student.class);
+		  stud.displayStudentInfo();
+		  
+		  //creating another object given the refernce as ash
+		  Student ash=context1.getBean("ash",Student.class);
+		  ash.displayStudentInfo();
+		  
+		  
+		 
+				 
+		  //Vadaphone vada=context.getBean("vadaphone",Vadaphone.class);
+		 // vada.calling();
+		 // vada.data();*/
+		 
+		
+		 
+	}
+
+}

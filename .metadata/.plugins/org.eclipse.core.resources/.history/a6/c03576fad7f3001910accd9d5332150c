@@ -1,0 +1,19 @@
+package com.bridgelabz.Ioc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Mobile 
+{
+    public static void main( String[] args )
+    { 
+    	//@SuppressWarnings("unused")
+    	//by using implemented classread the config file
+		
+		  ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
+		  System.out.println("configure loaded");
+		 
+    	 
+         
+    }
+}
