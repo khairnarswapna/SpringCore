@@ -13,9 +13,14 @@
  <constructor-arg name="id" value="1"/>
  </bean>
  
- <bean id="ash" class="com.bridgelabz.DependencyInjection.constuctor.Student1"> 
+ <bean id="ash" class="com.bridgelabz.DependencyInjection.constuctor.Student1">
+ <constructor-arg name="studentName" value="Ashpatil"/> 
  <constructor-arg name="id" value="2"/>
  </bean>
  
+ <bean id="ani" class="com.bridgelabz.DependencyInjection.constuctor.Student1">
+ <constructor-arg name="studentName" value="aniketbhosale"/> 
+ <constructor-arg name="id" value="3"/>
+ </bean>
   
  </beans>

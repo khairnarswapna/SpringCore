@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     
-<!--   <bean id="airtel" class="com.bridgelabz.IOc.Airtel"></bean> -->
+<!-- <bean id="sim" class="com.bridgelabz.IOc.Airtel"></bean> -->
  
-<bean id="sim" class="com.bridgelabz.Ioc.BSNL"></bean>
+<bean id="sim" class="com.bridgelabz.Ioc.Jio"></bean>
 </beans> 

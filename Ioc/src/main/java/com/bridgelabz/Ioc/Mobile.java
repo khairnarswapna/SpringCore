@@ -8,7 +8,7 @@ public class Mobile
     public static void main( String[] args )
     { 
     	 
-    	//by using implemented classread the config file
+    	//by using implementedclass read the config file
 	
     	  ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
 		  System.out.println("configure loaded");

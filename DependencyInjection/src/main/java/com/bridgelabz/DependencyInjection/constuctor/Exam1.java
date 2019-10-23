@@ -20,10 +20,16 @@ public class Exam1 {
 		 */
 		
 		 ApplicationContext context1=new ClassPathXmlApplicationContext("beans.xml");
+		 
+		 //student1
 		 Student1 stud=context1.getBean("student1",Student1.class);
 		 stud.displayStudentInfo();
+		 //student2
 		 Student1 ash=context1.getBean("ash",Student1.class);
 		 ash.displayStudentInfo();
+		 //student3
+		 Student1 ani=context1.getBean("ani",Student1.class);
+		 ani.displayStudentInfo();
  
  
 		 

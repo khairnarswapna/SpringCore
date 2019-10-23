@@ -17,7 +17,6 @@ public class Student1
     	this.studentName=studentName;
     }
 	
-	
 	public void displayStudentInfo()
 	{
 		System.out.println("student name:"+studentName+" and id is:"+id);
