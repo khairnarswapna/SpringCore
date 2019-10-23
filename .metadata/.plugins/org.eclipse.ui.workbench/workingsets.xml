@@ -12,4 +12,7 @@
 <item elementID="=DependencyInjection/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571641550163_2" label="Window Working Set" name="Aggregate for window 1571641550162"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571716004817_3" label="Window Working Set" name="Aggregate for window 1571716004817"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571803125118_4" label="Window Working Set" name="Aggregate for window 1571803125118"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571803433236_5" label="Window Working Set" name="Aggregate for window 1571803433236"/>
 </workingSetManager>

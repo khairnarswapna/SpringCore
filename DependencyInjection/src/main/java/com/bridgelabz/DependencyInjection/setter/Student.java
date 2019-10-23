@@ -26,8 +26,6 @@ public class Student
 		System.out.println("setter method called"+"setstudentName");
 		 
 	}
-	
-	
 	public void displayStudentInfo()
 	{
 		System.out.println("student name:"+studentName+" and id is:"+id);

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+     
+     
+ <!--In the autowiring byName propertyname or Heart Class reference variable i.e heart is type of Heart Class should be
+ same as the name of the beanname i.e beanid="heart"of xml   -->
+ <bean id="heartobjectref" class="com.bridgelabz.autowiring.bytype.Heart"></bean>
+ 
+ <bean id="human" class="com.bridgelabz.autowiring.bytype.Human" autowire="byType">
+<!-- internally thing do
+ Human human=new Human();
+ human.setHeart(new Heart());  it's internally called setter method-->
+
+<!--heartObject injecting to the reference variable heart -->
+<!-- <property name="heart" ref="heartObject"/>
+ -->
+<!--dependency-->
+</bean>
+</beans> 
